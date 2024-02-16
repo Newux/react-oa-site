@@ -1,8 +1,9 @@
 import React from "react";
 
 //include images into your bundle
-import warehouseImage from "../../img/WHM.png";
+import warehouseImage from "../../img/WHM_SMALL.jpg";
 import oneAgent from "../../img/oneagent logo 2024.png";
+import { BlockTwo } from '../component/blockTwo.jsx';
 
 //create your first component
 const Home = () => {
@@ -16,10 +17,10 @@ const Home = () => {
 				</div>
 			</nav>
 			<div className="d-flex" style={{ marginLeft: '180px', marginTop: '50px' }}>
-				<img src={warehouseImage} width="600" />
+				<img src={warehouseImage} width="500" />
 				<div className="message" style={{ marginLeft: '50px' }}>
 					<div className="first section">
-						<p className="heading-one" style={{ color: '#4ca1f9' }}>WAREHOUSING, CUSTOMER PORTAL AND BROKERAGE IN ONE</p>
+						<p className="heading-one" style={{ color: '#4ca1f9', marginTop: '-5px' }}>WAREHOUSING, CUSTOMER PORTAL AND BROKERAGE IN ONE</p>
 						<h1 className="heading-two"
 							style={{
 								color: 'white',
@@ -41,7 +42,7 @@ const Home = () => {
 							color: 'white',
 							width: '170px',
 							height: '40px',
-							marginTop: '30px',
+							marginTop: '45px',
 							borderRadius: '2px',
 							boxShadow: '0 1px 3px rgba(1,1,1,0.5)'
 						}}>
@@ -50,7 +51,7 @@ const Home = () => {
 				</div>
 			</div>
 
-
+			<BlockTwo />
 		</div>
 
 	);
