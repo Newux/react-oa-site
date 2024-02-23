@@ -1,8 +1,16 @@
 import React from "react";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
 
 //include images into your bundle
 
+import webPortal from "../../img/webPortal.png";
+import Tracking from "../../img/tracking.png";
+import linkIcon from "../../img/linkIcon.png";
+import warehouse from "../../img/warehouse.png";
+import creditCard from "../../img/creditCard.png";
 
 
 //create your first component
@@ -18,22 +26,34 @@ export const BlockTwo = () => {
             <div className="container text-center my-5" style={{ width: "1120px" }}>
                 <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px'}}>
-                            <div className="circle" style={{ background: '#ffffff', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px'}}></div>
-                            <p className="" style={{ marginTop: '5px'}}>End to End Tracking</p>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={Tracking} width="50px" style={{ marginTop: "23px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>End to End Tracking</p>
                         </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>BESW Integration</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={linkIcon} width="50px" style={{ marginTop: "24px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>BESW Integration</p>
+                        </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>US Warehousing</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={warehouse} width="50px" style={{ marginTop: "24px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>US Warehousing</p>
+                        </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>Customer Portal</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={webPortal} width="50px" style={{ marginTop: "22px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>Customer Portal</p>
+                        </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>Online Payments</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={creditCard} width="50px" style={{ marginTop: "32px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>Online Payments</p>
+                        </div>
                     </div>
                     <div className="col">
                         <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>Document Management</div>
