@@ -12,6 +12,12 @@ import linkIcon from "../../img/linkIcon.png";
 import warehouse from "../../img/warehouse.png";
 import creditCard from "../../img/creditCard.png";
 
+import custAlerts from "../../img/custAlerts.png";
+import docMan from "../../img/docMan.png";
+import integrations from "../../img/integrations.png";
+import packProc from "../../img/packProc.png";
+import EXIM from "../../img/EXIM.png";
+
 
 //create your first component
 export const BlockTwo = () => {
@@ -56,19 +62,34 @@ export const BlockTwo = () => {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>Document Management</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={docMan} width="50px" style={{ marginTop: "25px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>Document Management</p>
+                        </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>API Integrations</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={integrations} width="50px" style={{ marginTop: "25px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>API Integrations</p>
+                        </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>Package Processing</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={packProc} width="90px" style={{ marginTop: "5px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>Package Processing</p>
+                        </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>Customer Alerts</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={custAlerts} width="50px" style={{ marginTop: "25px" }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>Customer Alerts</p>
+                        </div>
                     </div>
                     <div className="col">
-                        <div className="p-3" style={{ background: '#F6B600', height: '150px', borderRadius: '5px' }}>Delivery to Export Point</div>
+                        <div className="p-3" style={{ background: '#ffffff', height: '150px', borderRadius: '5px' }}>
+                            <div className="circle" style={{ background: '#E5E3E3', height: '100px', width: '100px', borderRadius: '150px', marginLeft: '40px' }}><img src={EXIM} width="65px" style={{ marginTop: "15px", marginLeft: '5px' }} /></div>
+                            <p className="" style={{ marginTop: '5px' }}>Delivery to Export Point</p>
+                        </div>
                     </div>
                 </div>
             </div>
