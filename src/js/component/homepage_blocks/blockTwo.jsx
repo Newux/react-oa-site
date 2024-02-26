@@ -6,25 +6,25 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 
 //include images into your bundle
 
-import webPortal from "../../img/webPortal.png";
-import Tracking from "../../img/tracking.png";
-import linkIcon from "../../img/linkIcon.png";
-import warehouse from "../../img/warehouse.png";
-import creditCard from "../../img/creditCard.png";
+import webPortal from "../../../img/webPortal.png";
+import Tracking from "../../../img/tracking.png";
+import linkIcon from "../../../img/linkIcon.png";
+import warehouse from "../../../img/warehouse.png";
+import creditCard from "../../../img/creditCard.png";
 
-import custAlerts from "../../img/custAlerts.png";
-import docMan from "../../img/docMan.png";
-import integrations from "../../img/integrations.png";
-import packProc from "../../img/packProc.png";
-import EXIM from "../../img/EXIM.png";
+import custAlerts from "../../../img/custAlerts.png";
+import docMan from "../../../img/docMan.png";
+import integrations from "../../../img/integrations.png";
+import packProc from "../../../img/packProc.png";
+import EXIM from "../../../img/EXIM.png";
 
 
 //create your first component
 export const BlockTwo = () => {
     return (
-        <div className="container body" style={{ background: "#ffffff", height: "700px", marginTop: "190px" }}>
+        <div className="container">
             <div>
-                <p className="test" style={{ marginTop: "250px", color: '#4ca1f9', marginLeft: '100px' }}>FEATURES</p>
+                <p className="test" style={{ marginTop: "100px", color: '#4ca1f9', marginLeft: '100px' }}>FEATURES</p>
                 <h1 style={{ marginTop: "25px", color: '#37465a', marginLeft: '100px' }} >All the key features you need in one place</h1>
                 <p style={{ marginTop: "25px", color: '#37465a', marginLeft: '100px', width: '1050px' }} >Strategically align your company with a software designed for you. Offering the most tailored, comprehensive platform on the market which has been tried and proven. True to our value proposition, we take the manual work away so that you can focus on building your business.</p>
             </div>
@@ -93,7 +93,7 @@ export const BlockTwo = () => {
                     </div>
                 </div>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" style={{ marginBottom: '100px'}}>
                 <a href="#" className="btn"
                     style={{
                         background: '#5257c6',
